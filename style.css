@@ -1,0 +1,436 @@
+*{
+    margin: 0;padding: 0;
+}
+/* ======HEADER====== */
+.tashkent{
+    background: url('./images/header_bg.jpg') center center;
+    height: 825px;
+    width: 100%;
+    padding-top: 123px;
+    box-sizing: border-box;
+}
+.tashkent h1{
+    font-size: 50px;
+    color: #626262;
+    font-weight: 100;
+    text-align: center;
+}
+.tashkent h1 span{
+    color: #011556;
+    font-weight: 600;
+}
+.tashkent p{
+    color: #000000;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 28px;
+}
+.form{
+    width: 376px;
+    height: 400px;
+    background: white;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.form h3{
+    font-size: 20px;
+    color: #011556;
+    text-align: center;
+    margin-top: 33px;
+}
+.form input{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #c7c7c7;
+    width: 263px;
+    height: 30px;
+    margin: 33px auto 0;
+}
+.form input:nth-of-type(3){
+    height: 100px;
+}
+button{
+    background: #011556;
+    color: white;
+    border-radius: 22px;
+    margin: auto;
+    border: none;
+}
+.form button{
+    width: 240px;
+    height: 55px;
+}
+/* ========SECTION====== */
+.one{
+    width: 100%;
+    height: 705px;
+}
+.one h2{
+    color: #011556;
+    font-size: 50px;
+    text-align: center;
+    margin: 72px 0 190px 0;
+    font-weight: bolder;
+}
+.flags{
+    width: 85%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.first{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.second{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.farrux{
+    width: 255px;
+    height: 335px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.flags p{
+    color: #011556;
+    font-size: 36px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.two{
+    width: 100%;
+    height: auto;
+    background: #fbfbfb;
+    padding: 70px 0 70px 0;
+    box-sizing: border-box;
+}
+.two h2{
+    text-align: center;
+    font-weight: bolder;
+    color: #011556;
+    font-size: 50px;
+    margin: 0px 0 50px 0;
+}
+.image{
+    width: 85%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.image img{
+    margin-top: 23px;
+}
+.image img:hover{
+    /* ============ */
+}
+.three{
+    width: 100%;
+    height: auto;
+}
+.three h2{
+    text-align: center;
+    font-weight: bolder;
+    color: #011556;
+    font-size: 50px;
+    margin: 70px 0 60px 0;
+}
+.paragrf{
+    width: 85%;
+    height: auto;
+    margin: auto;
+}
+.paragrf p{
+    color: #000000;
+    font-size: 21px;
+    font-weight: 500;
+}
+.paragrf p span{
+    margin-right: 40px;
+}
+.four{
+    width: 100%;
+    height: auto;
+    background: #fbfbfb;
+}
+.sarlavha{
+    width: 85%;
+    height: auto;
+    margin: auto;
+}
+.four h2{
+    text-align: center;
+    font-weight: bolder;
+    color: #011556;
+    font-size: 50px;
+    margin: 70px 0 45px 0;
+}
+.four p{
+    text-align: center;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 400;
+}
+.butiful{
+    width: 85%;
+    height: auto;
+    margin: 145px auto 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.item{
+    width: 365px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.price{
+    width: 262px;
+    height: 95px;
+    box-shadow: 0 10px 2px #ededed;
+    margin-top: -65px;
+    border-radius: 3px;
+    background: white;
+}
+.price h3{
+    color: #000000;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+}
+.price p{
+    color: #011556;
+    font-size: 24px;
+    font-weight: 600;
+}
+.price:nth-of-type(1){
+    margin-left: 60px;
+}
+.price:nth-of-type(2){
+    margin-left: 10px;
+}
+.price:nth-of-type(3){
+    margin-right: 46px;
+}
+.five{
+    width: 100%;
+    height: auto;
+}
+.five h2{
+    text-align: center;
+    font-weight: bolder;
+    color: #011556;
+    font-size: 50px;
+    margin: 75px 0 87px 0;
+}
+.five p{
+    text-align: center;
+    color: #000000;
+    font-weight: 500;
+}
+.otziv{
+    width: 85%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box{
+    width: 535px;
+    height: 270px;
+    border: 1px solid #c7cbd0;
+    margin: 132px auto 0;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #c7cbd0;
+    margin: auto;
+    margin-top: -50px;
+}
+.otziv .box .circle:nth-of-type(1){
+    background: url('./images/boys_03.jpg') center;
+}
+.otziv .box .circle:nth-of-type(2){
+    background: url('./images/boys_02.jpg') center;
+}
+.otziv .box .circle:nth-of-type(3){
+    background: url('./images/boys_01.jpg') center;
+}
+.box p{
+    font-size: 17px;
+    color: #000000;
+    margin-top: 50px;
+    font-weight: 600;
+}
+.box img{
+    margin-left: 240px;
+}
+.box h3{
+    color: #000000;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+}
+.india , .oae ,.tailand , .israil{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+/* ===========FOOOTER======= */
+footer{
+    margin-top: 100px;
+    width: 100%;
+    height: 260px;
+    background: #f7f7f7;
+    padding-top: 70px;
+    box-sizing: border-box;
+}
+.theend{
+    width: 440px;
+    height: 140px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.theend button{
+    width: 240px;
+    height: 56px;
+    border: none;
+    border-radius: 23px;
+    background: #011556;
+    color: white;
+    margin-left: 120px;
+}
+.icon{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: space-between; 
+}
+.icons{
+    width: auto;
+    height: auto;
+}
+footer p{
+    color: #040404;
+    font-size: 17px;
+    text-align: end;
+    margin-top: 20px;
+}
+.fa{
+    background: #d3d3d3;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+.fa:hover{
+    background: #011556;
+    transition: 0.6s;
+}
+@media(max-width:992px){
+    .flags{
+        display: flex;
+        flex-direction: column;
+    }
+    .first , .second{
+        margin: auto;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .second{
+        margin-top: 50px;
+    }
+    .two{
+        margin-top: 400px;
+    }
+    .item{
+        margin: 30px auto 0;
+    }
+}
+@media(max-width:768px){
+    .image img{
+        margin: 27px auto 0;
+    }
+}
+@media(max-width:576px){
+    .tashkent{
+        padding-top: 50px;
+    }
+    .two h2{
+        font-size: 42px;
+    }
+}
+@media(max-width:320px){
+    .one{
+        margin-top: 280px;
+    }
+    .one h2{
+        font-size: 42px;
+    }
+    .flags ,.first ,.second , .image ,.one ,.two ,.three, .four , .five ,.sarlavha ,.image img,.butiful,.item img,.box ,.theend,.paragrf{ 
+        width: 100%;
+    }
+    .flags img{
+        width: 170px;
+    }
+    .two h2{
+        font-size: 25px;
+    }
+    .price{
+        margin-left: 0;
+    }
+    .box img{
+        margin-left: 100px;
+    }
+    .india img ,.israil img ,.oae img ,.tailand img{
+        width: 100%;
+    }
+    .icon{
+        display: flex;
+        flex-direction: column;
+    }
+    .theend button{
+        margin-left: 50px;
+    }
+    .icons{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        padding-left: 80px;
+        box-sizing: border-box;
+    }
+    .theend p{
+        text-align: center;
+    }
+    .form{
+        width: 100%;
+        margin: auto;
+    }
+}
+
